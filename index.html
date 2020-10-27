@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Fortunizer</title>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/fortune.js"></script>
+    </head>
+    <body>
+        <div class="container container-custom">
+            <h1>Fortunizer</h1>
+            <div id="vid">
+                <p>You've got to ask yourself a question. Do I feel lucky? Well... do ya, punk?</p>
+                <center>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/vkqnAh_5ODw?autoplay=1&mute=1">
+                </iframe>
+                </center>
+            </div>
+            <br></br>
+            <form id="fortune-survey">
+                <div class="form-group">
+                    <p>bad omens, tsk tsk tsk...</p>
+                    <input type="checkbox" name="bad-box" value="v1"> Been circled by a flock of crows.<br>
+                    <input type="checkbox" name="bad-box" value="v2"> Broke a mirror.<br>
+                    <input type="checkbox" name="bad-box" value="v3"> Got hit by a car.<br>
+                    <input type="checkbox" name="bad-box" value="v4"> Missed the bus.<br>
+                    <input type="checkbox" name="bad-box" value="v5"> Been haunted by a ghost.<br>
+                </div>
+                <div class="form-group">
+                    <p>good omens, amen!</p>
+                    <input type="checkbox" name="good-box" value="b1"> A puppy fell into your hands.<br>
+                    <input type="checkbox" name="good-box" value="b2"> Didn't get rained on.<br>
+                    <input type="checkbox" name="good-box" value="b3"> idn't get food poisoning after eating at the dubious restaurant.<br>
+                    <input type="checkbox" name="good-box" value="b4"> Caught the bus.<br>
+                    <input type="checkbox" name="good-box" value="b5"> Remembered that one deadline before it was too late.<br>
+                    <br>
+                    <input type="submit" value="Fortunize!">
+                </div>
+
+            </form>
+
+            <span id="fortune-responses">
+                <div class="centered" id="fortune-one"><img src="img/crystal-ball.jpg" alt="crystal-ball-image"><div class="centered">D O O M luck</div></div>
+                <div class="centered" id="fortune-two"><img src="img/crystal-ball.jpg" alt="crystal-ball-image"><div class="centered">bad luck</div></div>
+                <div class="centered" id="fortune-three"><img src="img/crystal-ball.jpg" alt="crystal-ball-image"><div class="centered">neutral luck</div></div>
+                <div class="centered" id="fortune-four"><img src="img/crystal-ball.jpg" alt="crystal-ball-image"><div class="centered">okay luck</div></div>
+                <div class="centered" id="fortune-five"><img src="img/crystal-ball.jpg" alt="crystal-ball-image"><div class="centered">good luck</div></div>
+            </span>
+        </div>
+    </body>
+</html>
